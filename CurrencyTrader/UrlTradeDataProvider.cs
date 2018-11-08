@@ -7,11 +7,11 @@ using CurrencyTrader.Contracts;
 
 namespace CurrencyTrader
 {
-    public class UrlTradeDataProvider : ITradeDataProvider
+    public class AdjustTradeDataProvider : ITradeDataProvider
     {
         private readonly String url;
 
-        public UrlTradeDataProvider(String url)
+        public AdjustTradeDataProvider(String url)
         {
             this.url = url;
         }
